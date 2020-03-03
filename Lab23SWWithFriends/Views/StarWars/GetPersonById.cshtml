@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "GetPersonById";
+}
+
+@model Person
+
+<h1>Star Wars Character</h1>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Height</th>
+        <th>Hair Color</th>
+    </tr>
+    <tr>
+        <td>@Model.name</td>
+        <td>@Model.gender</td>
+        <td>@Model.height</td>
+        <td>@Model.hair_color</td>
+    </tr>
+</table>
