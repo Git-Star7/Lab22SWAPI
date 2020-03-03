@@ -7,5 +7,5 @@
 
 @for (int i = 0; i < Model.results.Length; i++)
 {
-    <a class="dropdown-item" href="../StarWars/GetPersonById?id=@i">@Model.results[i].name</a>
+    <a class="dropdown-item" href="../StarWars/GetPersonById?id=@(i+1)">@Model.results[i].name</a>
 }
